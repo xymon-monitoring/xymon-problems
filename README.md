@@ -1,39 +1,63 @@
-### Xymon problems 
-- [Summary: A digest of the main priorities and lists of problems with their status](https://github.com/xymon-monitoring/problem-solving/issues/1)
-- [Repository of all the problems](https://github.com/xymon-monitoring/problem-solving/issues)
+# Xymon problems
 
- Note: 
- - This is a PoC (Proof of Concept) ([Is this tool a good idea?](https://github.com/xymon-monitoring/problem-solving/issues/17))
- - It can disapear without notice!
+This repository is a shared place to document, discuss, and consolidate Xymon
+problems that do not yet fit cleanly in one specific code repository.
 
-### Goal: A backlog/to-do tool 
-- **Make an inventory of problems (or questions)** 
-  - **That do not fit well in other repositories**, like general problems/questions
-  - **That are long discussions on the mailing lists that need to be consolidated** 
-  - **That are not elsewere so far** (prefer the correct repository, if you can!)
-- Enrich them with related information
-- Help **focus on the main, most blocking problems**
-  - Order by priority or importance
-- Have a tracking tool
-  - Who is taking care ?
-  - What is the status ?
+- [Summary and priorities](https://github.com/xymon-monitoring/xymon-problems/issues/1)
+- [All tracked problems](https://github.com/xymon-monitoring/xymon-problems/issues)
+- [Discussion: is this problem-solving tool useful?](https://github.com/xymon-monitoring/xymon-problems/issues/17)
 
-### How
-- **Anyone** can participate!
-  - By **adding** problems or **commenting** on existing problems
-  - Try to make only one comment: If you want to add something add it to your previous comment (as it helps to keep things short and dense)
-  - Github issues have an history: (click on "edited" at the top) to revert a mistake
-  - Your contibution will be review, consolidated and added to the main description: if you think the maintainer missed/misunderstood something: let us know!
-- **Members** can **directly edit** anything and correct what is wrong
-  - If you want to correct something but you are not sure: strike through the text (like \~\~text\~\~) that you want to replace and add the one you want.  
-- **Admins** of this tool **help in finding solutions** to resolve problems
-  - They take care of the community and its volunteers (rules, CoC ?)
-  - They assign people with their consent to problems 
-- **Maintainers** maintain the aspects of the tool that are not maintain by others
-  - Triage and consolidate information: No duplicates, ...
-  - Structure and organize information: Keep things simple, readable, ...
- 
+## Status
 
+This repository is a proof of concept. The process, structure, or repository may
+change as the project learns what works.
 
+## Goal
 
+Use this repository to:
 
+- keep an inventory of problems, questions, and unresolved topics;
+- collect issues that do not belong clearly in another Xymon repository;
+- consolidate long mailing-list discussions into a readable, trackable form;
+- record context, impact, priority, status, and possible owners;
+- help the community focus on the most blocking problems first.
+
+This repository is not meant to replace the issue trackers of the code
+repositories. If a problem clearly belongs to a specific project, file it there
+and link it from here only when broader discussion is useful.
+
+## How to participate
+
+Anyone can help by opening a problem, adding context, or commenting on an
+existing issue.
+
+Please try to keep each issue focused:
+
+- use one issue per problem or question;
+- add links to related mailing-list threads, issues, PRs, logs, or decisions;
+- prefer editing your previous comment for small additions, instead of adding
+  many short follow-up comments;
+- keep comments dense and factual so the issue remains easy to summarize.
+
+GitHub keeps an edit history for issue descriptions and comments, so mistakes can
+be reviewed and corrected.
+
+Maintainers may consolidate useful comments into the issue description. If
+something is missed or misunderstood, say so in the issue.
+
+## Roles
+
+Members can directly improve descriptions, fix mistakes, remove duplication, and
+keep issues readable. If a correction is uncertain, use strike-through for the
+text being replaced and add the proposed wording nearby.
+
+Admins help keep the process healthy: they clarify rules, protect the community,
+and assign people to problems only with their consent.
+
+Maintainers take care of the parts that are not already owned by others:
+
+- triage and consolidate information;
+- remove duplicates;
+- keep issues simple and readable;
+- organize problems by priority, status, and owner;
+- move concrete work to the right repository when the next action becomes clear.
